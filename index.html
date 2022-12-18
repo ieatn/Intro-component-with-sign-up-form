@@ -21,10 +21,10 @@
     </div>
     <div class="right">
       <div><b>Try it free 7 days</b> then $20/mo. thereafter</div>
-      <form>
+      <form onsubmit="return validateForm()">
         <input class="form-group" type="text" placeholder="First Name" required>
         <input class="form-group" type="text" placeholder="Last Name" required>
-        <input class="form-group" type="text" placeholder="Email Address" required>
+        <input class="form-group" type="email" placeholder="Email Address" required>
         <input class="form-group" type="text" placeholder="Password" required>
         <button id="btn" type="submit">Claim your free trial</button>
         <p>By clicking the button, you are agreeing to our <span class="red-text">Terms and Services</span></p>
